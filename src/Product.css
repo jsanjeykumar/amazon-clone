@@ -1,3 +1,20 @@
+/* button :focus {
+    background: red;
+}
+
+button:hover {
+    background: blue;
+} */
+
+.product>button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+}
+
 .product {
     display: flex;
     flex-direction: column;
@@ -27,14 +44,6 @@
     height: 100px;
     margin-bottom: 15px;
     text-align: left;
-}
-
-.product>button {
-    background: #f0c14b;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
 }
 
 .product__rating {

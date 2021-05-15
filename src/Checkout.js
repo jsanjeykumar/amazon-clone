@@ -5,7 +5,7 @@ import CheckoutProduct from './CheckoutProduct'
 import { useStateValue } from './context/StateProvider'
 
 function Checkout() {
-
+    
     const [{ basket, user }, dispatch] = useStateValue();
     return (
         <div className="checkout">
@@ -36,6 +36,7 @@ function Checkout() {
             </div>
             <div className="checkout__right">
                 <Subtotal />
+
             </div>
         </div >
     )

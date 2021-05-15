@@ -24,3 +24,4 @@ yarn-error.log*
 .idea
 yarn.lock
 .firebase/hosting.YnVpbGQ.cache
+package-lock.json

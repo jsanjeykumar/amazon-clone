@@ -1,11 +1,3 @@
-/* button :focus {
-    background: red;
-}
-
-button:hover {
-    background: blue;
-} */
-
 .product>button {
     background: #f0c14b;
     border: 1px solid;
@@ -13,6 +5,15 @@ button:hover {
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
     cursor: pointer;
+}
+
+.product>button:hover {
+    background: #F7CA00;
+}
+
+.product>button:focus {
+    /* background: #FFF;
+    border-color: #FFD814; */
 }
 
 .product {

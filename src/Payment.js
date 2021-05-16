@@ -1,4 +1,4 @@
-import React,{ useState} from 'react'
+import React, { useState } from 'react'
 import './Payment.css'
 import { useStateValue } from './context/StateProvider'
 import CheckoutProduct from './CheckoutProduct'
@@ -45,13 +45,15 @@ function Payment () {
             <h3>Review Items and delivery</h3>
           </div>
           <div className='payment__items'>
-            {basket.map(item => <CheckoutProduct
-              id={item.id}
-              title={item.title}
-              image={item.image}
-              price={item.price}
-              rating={item.rating}
-                                />
+            {basket.map(item =>
+              <CheckoutProduct
+                id={item.id}
+                key={item.id}
+                title={item.title}
+                image={item.image}
+                price={item.price}
+                rating={item.rating}
+              />
             )}
           </div>
         </div>
